@@ -2,7 +2,7 @@ let brag_card = (brag, k) => {
     return `
     <div class="card-wrapper col-sm">
         <div class="card" data-toggle="modal" data-target="#brag-${k}">
-            <img src="/images/brags/${brag.image}" class="card-img-top" alt="...">
+            <img src="../images/brags/${brag.image}" class="card-img-top" alt="...">
             <div class="card-body">
                 <h5 class="card-title">${brag.title}</h5>
             </div>
@@ -17,7 +17,7 @@ let brag_card = (brag, k) => {
                     </button>
                 </div>
                 <div class="modal-body">
-                    <img src="/images/brags/${brag.image}"/>
+                    <img src="../images/brags/${brag.image}"/>
                     <p class="desc">${brag.description}</p>
                 </div>
                 <div class="modal-footer">

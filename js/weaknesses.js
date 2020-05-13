@@ -1,7 +1,7 @@
 let weakness_card = weakness => {
     return `
     <div class="ability row">
-        <img src="/images/${weakness.image}" class="col-sm-4">
+        <img src="../images/${weakness.image}" class="col-sm-4">
         <div class="ability-info col-sm-7">
         <div class="title">${weakness.title}</div>
         <div class="desc">${weakness.description}</div>
