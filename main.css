@@ -1,0 +1,413 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+/* ALL */
+.full-page-container {
+    height: 100%;
+    padding-top: 160px;
+}
+
+body {
+    height: 100%;
+    background-image: url('/images/dumbell-background-tile.png');
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+    font-size: 24px;
+}
+
+a {
+    text-decoration: none !important;
+    color: black;
+}
+
+a:hover {
+    color: black;
+}
+
+/* NAVBARS */
+#title-name {
+    background-image: url('/images/metal-background.png');
+    font-family: 'Staatliches', cursive;
+    height: 80px;
+    z-index: 99;
+    padding: 0;
+    position: fixed;
+    box-shadow: 0 5px 10px black;
+
+}
+
+#title-name button {
+    background-image: url('/images/navbar-menu.png');
+    background-size: 100%;
+    margin-right: 10px;
+}
+#title-nav {
+    height: 80px;
+    background-image: url('/images/steel-background.png');
+    background-size: 100%;
+    box-shadow: 0 3px 10px;
+    font-family: 'Staatliches', cursive;
+    z-index: 98;
+    position: fixed;
+    margin-top: 80px;
+    width: 100%;
+}
+#nav-title-img-desktop {
+    display: block;
+    margin-left: 20px;
+}
+#nav-title-img-mobile {
+    display: none;
+    margin-left: 20px;
+
+}
+#navbarNav {
+    visibility: hidden;
+    font-size: 42px;
+    /* padding-left: 20px; */
+    background-image: url('/images/collapse-mobile-background.png');
+    background-size: 100%;
+}
+#navbarNav a {
+    color: white;
+    -webkit-text-stroke: 2px black;
+    padding: 0px 20px;
+}
+#title-name .navbar-brand img {
+    max-width: 100%;
+    max-height: 75px;
+}
+#title-nav .nav-link{
+    color: white;
+    font-size: 42px;
+    -webkit-text-stroke: 2px black;
+    padding: 0 20px;
+}
+
+
+/* HOME */
+.home-title {
+    margin-top: 150px;
+    text-align: center;
+}
+
+.home-title-text {
+    font-size: 48px;
+}
+
+.home-tagline {
+    margin-top: 20px;
+}
+
+.home-container {
+    background-image: url('images/home-background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.brag-container {
+    width: 100%;
+    margin: auto;
+    background-image: url('/images/brag-steel-background.png');
+    background-size: 100%;
+    box-shadow: 0 0 20px 10px black;
+    padding: 10px;
+}
+
+.brag-container .card {
+    color: white;
+    margin: 20px 10px;
+    font-size: 40px;
+    border-radius: 10px;
+    background-image: url('/images/steel-button.png');
+    box-shadow: 0 0 10px black;
+    font-family: 'Staatliches', cursive;
+    text-align: center;
+    -webkit-text-stroke: 2px black;
+}
+
+.brag-container .card:hover {
+    background-color: whitesmoke;
+}
+
+.home-bio {
+    background-color: white;
+    padding: 30px;
+    border-radius: 4px;
+    margin: 30px;
+}
+
+.home-bio-header {
+    text-align: center;
+    font-size: 42px;
+    background-image: url('/images/special-ability-background.png');
+    background-size: 100%;
+    margin: 40px 60px 20px;
+    padding: 20px;
+    font-family: 'Staatliches', cursive;
+    -webkit-text-stroke: 2px black;
+    color: white;
+    border-radius: 4px;
+    box-shadow: 0 0 20px 5px gray;
+}
+
+/* WHAT I CAN LIFT */
+.what-i-can-lift .row {
+    margin: auto;
+}
+.what-i-can-lift .card {
+    margin: auto;
+    margin: 10px 0 20px 0;
+    box-shadow: 0 0 20px 5px gray;
+}
+.what-i-can-lift .card:hover {
+    cursor: pointer;
+}
+.what-i-can-lift .card img {
+    margin: 10px auto;
+    width: 90%;
+}
+
+.what-i-can-lift .brag-info {
+    text-align: center;
+    font-size: 42px;
+    background-image: url('/images/brag-steel-background.png');
+    background-size: 100%;
+    margin: 20px 60px;
+    padding: 20px;
+    font-family: 'Staatliches', cursive;
+    -webkit-text-stroke: 2px black;
+    color: white;
+    border-radius: 4px;
+    box-shadow: 0 0 20px 5px gray;
+}
+
+.what-i-can-lift .modal-content {
+    background-image: url('/images/metal-background-modal.png');
+    background-size: 100%;
+}
+
+.what-i-can-lift .modal-content .title {
+    font-family: 'Staatliches', cursive;
+    -webkit-text-stroke: 2px black;
+    font-size: 34px;
+    color: white;
+    line-height: 35px;
+}
+.what-i-can-lift .modal-content .modal-body {
+    background-color: white;
+}
+
+.what-i-can-lift .modal-content .modal-body img {
+    width: 100%;
+}
+
+.what-i-can-lift .modal-content .desc {
+    margin-top: 10px;
+}
+
+.what-i-can-lift .sort-button {
+    display: inline-block;
+    background-color: white;
+    padding: 10px;
+    margin: 10px 20px;
+    border-radius: 4px;
+    background-image: url('/images/steel-button.png');
+    box-shadow: 0 0 20px black;
+}
+
+.what-i-can-lift .sort-button:hover {
+    cursor: pointer;
+}
+/* SPECIAL ABILITES/WEAKNESSES */
+.special-abilities .ability {
+    display: inline-block;
+    width: 96%;
+    padding: 30px;
+    margin: 20px 2%;
+    border-radius: 4px;
+    background-image: url('/images/special-ability-background.png');
+    background-size: 100%;
+}
+
+.special-abilities .ability-info {
+    display: inline-block;
+}
+.special-abilities img {
+    box-shadow: 0 0 20px 5px black;
+    padding: 0;
+
+}
+.special-abilities .title {
+    color: white;
+    font-size: 52px;
+    font-family: 'Staatliches', cursive;
+    -webkit-text-stroke: 2px black;
+    line-height: 50px;
+}
+.special-abilities .desc {
+    background-color: white;
+    padding: 20px;
+    border-radius: 4px;
+}
+
+/* HIRE */
+.hire-me-container {
+    background-image: url('/images/home-background.png');
+    background-size: 100%;
+}
+
+.hire-me {
+    width: 100%;
+}
+
+
+.hire-ads {
+    background-image: url('/images/special-ability-background.png');
+    background-size: 100%;
+    text-align: center;
+    padding: 20px 100px;
+}
+
+.hire-ad-info {
+    font-size: 42px;
+    background-image: url('/images/metal-background.png');
+    padding: 20px 60px;
+    font-family: 'Staatliches', cursive;
+    -webkit-text-stroke: 2px black;
+    color: white;
+    border-radius: 4px;
+    margin: 0 20px 20px 20px;
+}
+.hire-ad-header {
+    text-align: center;
+    margin: 0;
+    background-image: url('/images/stainless-steel-background.png');
+    background-size: 100%;
+    width: 100%;
+    box-shadow: 0 0 20px 5px black;
+}
+.hire-ad-header img {
+    height: 100px;
+    margin: 20px;
+}
+
+.hire-bg-2 {
+    background-image: url('/images/stainless-steel-background.png')
+}
+
+
+/* 404 */
+.error-page {
+    height: 100%;
+}
+
+.error-page img {
+    margin-top: 40px;
+    width: 100%;
+}
+/* POP UPS */
+.popup {
+    position: fixed;
+    z-index: 999;
+    background-color: white;
+    width: 90%;
+    margin: 5%;
+    text-align: center;
+    background-image: url('/images/home-background.png');
+    background-size: 100%;
+    border: 4px solid white;
+    box-shadow: 0 0 100px 100px black;
+
+}
+.i-am-not-on-steroids {
+    padding: 20px;
+}
+
+.i-am-not-on-steroids img {
+    width: 100%;
+}
+
+.i-am-not-on-steroids .popup-button {
+    color: white;
+    margin: 20px auto;
+    font-size: 40px;
+    border-radius: 10px;
+    background-image: url('/images/steel-button.png');
+    box-shadow: 0 0 10px black;
+    font-family: 'Staatliches', cursive;
+    text-align: center;
+    -webkit-text-stroke: 2px black;
+    line-height: 50px;
+    width: 300px;
+    padding: 2px;
+    cursor: pointer;
+}
+
+.i-am-not-on-steroids .popup-button a{
+    text-decoration: none;
+    color: white;
+    -webkit-text-stroke: 2px black;
+
+}
+
+@media screen and (max-width : 575px) {
+    .home-title {
+        margin: 0;
+    }
+
+    .full-page-container {
+        padding-top: 80px;
+    }
+    #title-nav {
+        display: none;
+    }
+
+    #nav-title-img-desktop {
+        display: none;
+    }
+    #nav-title-img-mobile {
+        display: block;
+    }
+
+    #navbarNav {
+        visibility: visible;
+    }
+
+    .brag-container .card {
+        margin: 10px 0;
+    }
+
+    .home-bio-header {
+        margin: 30px 10px 0;
+    }
+
+    #title-name .navbar-brand{
+        max-width: 50%;
+        max-height: 75px;
+    }
+
+    .what-i-can-lift .brag-info {
+        margin: 20px 10px;
+    }
+
+    .special-abilities .ability {
+        background-image: url('/images/special-ability-background-mobile.png');
+    }
+    .special-abilities .title {
+        text-align: center;
+        margin-top: 10px;
+    }
+    .hire-me img {
+        width: 100%;
+    }
+    .hire-ad-header {
+        padding: 0;
+    }
+    .hire-ads {
+        padding: 20px 0 0 0;
+    }
+    .popup {
+        background-size: auto;
+    }
+}
