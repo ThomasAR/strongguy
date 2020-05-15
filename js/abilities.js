@@ -1,7 +1,7 @@
 let ability_card = ability => {
     return `
     <div class="ability row">
-        <img src="../images/${ability.image}" class="col-sm-4">
+        <img src="../images/abilities/${ability.image}" class="col-sm-4">
         <div class="ability-info col-sm-7">
         <div class="title">${ability.title}</div>
         <div class="desc">${ability.description}</div>

@@ -64,7 +64,7 @@ a:hover {
     visibility: hidden;
     font-size: 42px;
     /* padding-left: 20px; */
-    background-image: url('/images/collapse-mobile-background.png');
+    background-image: url('/images/brag-steel-background.png');
     background-size: 100%;
 }
 #navbarNav a {
@@ -82,6 +82,23 @@ a:hover {
     -webkit-text-stroke: 2px black;
     padding: 0 20px;
 }
+
+#title-nav .dropdown-menu {
+    background-image: url('/images/collapse-mobile-background.png');
+    width: 300px;
+}
+#title-nav .dropdown-menu a{
+    font-size: 40px;
+    color: white;
+    text-decoration: none;
+    -webkit-text-stroke: 2px black;
+}
+#title-nav a:hover{
+    text-decoration: none;
+    background-image: url('/images/steel-button.png');
+    border-radius: 4px;
+}
+
 
 
 /* HOME */
@@ -116,18 +133,20 @@ a:hover {
 
 .brag-container .card {
     color: white;
-    margin: 20px 10px;
+    margin: 20px 40px;
     font-size: 40px;
     border-radius: 10px;
     background-image: url('/images/steel-button.png');
+    background-size: 100%;
     box-shadow: 0 0 10px black;
     font-family: 'Staatliches', cursive;
     text-align: center;
     -webkit-text-stroke: 2px black;
+    min-width: 225px;
 }
 
 .brag-container .card:hover {
-    background-color: whitesmoke;
+    background-image: url('/images/metal-background.png');
 }
 
 .home-bio {
@@ -215,7 +234,9 @@ a:hover {
     background-image: url('/images/steel-button.png');
     box-shadow: 0 0 20px black;
 }
-
+.what-i-can-lift .sort-button:hover {
+    background-image: url('/images/metal-background.png');
+}
 .what-i-can-lift .sort-button:hover {
     cursor: pointer;
 }
@@ -350,8 +371,16 @@ a:hover {
     -webkit-text-stroke: 2px black;
 
 }
+@media screen and (max-width : 1660px) {
+    .brag-container .card {
+        background-size: auto;
+    }
+}
+@media screen and (max-width : 991px) {
 
-@media screen and (max-width : 575px) {
+    #title-name {
+        width: 100%;
+    }
     .home-title {
         margin: 0;
     }
@@ -391,6 +420,9 @@ a:hover {
         margin: 20px 10px;
     }
 
+    .what-i-can-lift .sort-button {
+        font-size: 32px;
+    }
     .special-abilities .ability {
         background-image: url('/images/special-ability-background-mobile.png');
     }
@@ -410,4 +442,18 @@ a:hover {
     .popup {
         background-size: auto;
     }
+
+    .i-am-not-on-steroids .popup-button {
+        font-size: 32px;
+        width: 250px;
+    }
+
+    .hire-ad-header img {
+        height: 70px;
+    }
+
+    .hire-bg-2 {
+        font-size: 30px;
+    }
+
 }

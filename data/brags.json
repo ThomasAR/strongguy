@@ -1,68 +1,68 @@
 [
     {
-        "title": "A stapler",
-        "description": "1 pound<br/> Heavy enough to incapacitate the average office worker for life ",
+        "title": "A Stapler",
+        "description": "1 lbs<br/>Allegedly heavy enough to incapacitate the average office worker for life. Thankfully, Strong Guy is not average.",
         "image": "stapler.png",
         "weight": 1
     },
     {
-        "title": "His collection of cutoffs",
-        "description": "10,000 pounds<br/>  This Collection is so large that he has to pay 300,000$ a year just to store them, Syed can lift it with ease",
+        "title": "His Collection of Cutoffs",
+        "description": "10,000 lbs<br/>This collection is so large that he has to pay $300,000/year just to store them. Syed can lift it with ease",
         "image": "cutoffs.png",
-        "weight": 20
+        "weight": 10000
     },
     {
-        "title": "His weekly Bulk orders of Chicken and rice",
-        "description": "weight: unknown<br/> The largest poultry farm in the world is in fact not McDonald’s supplier, but Syeds.",
+        "title": "His Weekly Bulk Orders of Chicken and Rice",
+        "description": "weight: unknown<br/>The largest poultry farm in the world is in fact not McDonald’s supplier, but Syed's.",
         "image": "chicken.png",
-        "weight": 45
+        "weight": 9999
     },
     {
-        "title": "His Replica of the UFC Heavy Weight Belt",
-        "description": "10.45 pounds<br/> Might not be the heaviest item to lift, but he wears it under his clothes everyday which shows his true muscle stamina",
+        "title": "His Replica of the UFC Heavyweight Belt",
+        "description": "10.45 lbs<br/>Maybe not the heaviest item to lift, but he wears it under his clothes everyday - this proves his true muscle stamina",
         "image": "ufc.png",
-        "weight": 3
+        "weight": 11
     },
     {
         "title": "The Big Show",
-        "description": "383 pounds<br/> Proves how high his mental discipline in, he puts aside the distraction that comes with being in love with the big show as he reps out the bench set,",
+        "description": "383 lbs<br/>This proves his incredible mental discipline - he puts aside the distraction that comes with being in love with the Big Show in order to do what he needs to do.",
         "image": "bigshow.png",
-        "weight": 6
+        "weight": 383
     },
     {
-        "title": "A conifers tree",
-        "description": "800 pounds<br/> Syed can rip a tree out of the ground and lift it over his head. It is rumored he does this for his Sunday workouts in Scarborough Crescent Park",
+        "title": "A Coniferous Tree",
+        "description": "800 lbs<br/>Syed can rip a tree out of the ground and lift it over his head. It is rumored he does this for his Sunday workouts in Scarborough Crescent Park.",
         "image": "tree.png",
-        "weight": 7
+        "weight": 800
     },
    {
         "title": "An Airbus A380",
-        "description": "1,238,998 pounds<br/>When Syed bench presses an Airbus A380 you can hear him whispering “and boom” after every rep",
+        "description": "1,238,998 lbs<br/>When Syed bench presses an Airbus A380, spectators will be able to hear him whispering \"and boom\" after every rep.",
         "image": "airbus.png",
-        "weight": 100
+        "weight": 1238998
     },
     {
         "title": "Vancouver Island",
-        "description": "90,726,500,000 Metric Tons<br/>Syed lifts Vancouver island with such stability the people living there are unaware they are moving",
+        "description": "90,726,500,000 Metric Tons<br/>Syed lifts Vancouver island with such stability the people living there are unaware they are moving.",
         "image": "vancouver.png",
-        "weight": 1000
+        "weight": 90726500000
     },
     {
         "title": "The Pentagon",
-        "description": "Weight: redacted<br/> Due to secrecy we cannot disclose the exact details of how Syed lifts the Pentagon",
+        "description": "weight: [redacted]<br/>Due to a direct government order, we are unable to disclose the exact details of how Syed lifts the Pentagon.",
         "image": "pentagon.png",
-        "weight": 200
+        "weight": 10001
     },
    {
         "title": "Lizzo",
-        "description": "175 Pounds according to google, but according to Syed it’s much more<br/>Lizzo can be carried with ease on Syed back, he has been seen climbing trees while carrying her",
+        "description": "175 lbs<br/>According to Syed, 175 lbs is an underestimate. Lizzo can be carried with ease on Syed back, he has been seen climbing trees while carrying her.",
         "image": "lizzo.png",
-        "weight": 4
+        "weight": 175
     },
     {
         "title": "Mjölnir",
-        "description": "A mass so large the numbers cannot be represented using earths units of measurements<br/>Only two people other than Thor have had the strength to lift Mrunal; Syed, and his strong guy equal, Chris Evans",
+        "description": "A mass so large the numbers cannot be represented using earths units of measurements<br/>Only two people other than Thor have had the strength to lift Mrunal; Syed, and his strong guy equal, Chris Evans.",
         "image": "mjolnir.png",
-        "weight": 10000
+        "weight": 90726500001
     }
 ]

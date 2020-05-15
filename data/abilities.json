@@ -1,17 +1,37 @@
 [
     {
-        "title": "Missle Throw",
-        "description": "he can catch a missile mid air and throw it back to the country that sent it",
-        "image": "testimage.png"
+        "title": "Missile Throw",
+        "description": "Strong Guy can catch a missile in mid air and throw it back to the country that sent it.",
+        "image": "missile.png"
     },
     {
-        "title": "Missle Throw 2",
-        "description": "he can catch a missile mid air and throw it back to the country that sent it",
-        "image": "testimage.png"
+        "title": "Hydraulic Bench Press",
+        "description": "Syed is the only known human or object to withstand the power of a hydraulic press.",
+        "image": "hydraulic.png"
     },
     {
-        "title": "Missle Throw 3",
-        "description": "he can catch a missile mid air and throw it back to the country that sent it",
-        "image": "testimage.png"
+        "title": "High Striker",
+        "description": "Every time Strong Guy uses the \"High Striker\", the ball is shot into space. Some fables claim that this is how new stars are born.",
+        "image": "striker.png"
+    },
+    {
+        "title": "Paper Fold",
+        "description": "Syed can fold a piece of paper 8 times. Pictured in the background is Strong Guy's Lenovo ThinkPad X1 Carbon. He is quoted saying, \"The travel distance on the keys is insane, I write all my comedy specials on it.\"",
+        "image": "paper.png"
+    },
+    {
+        "title": "People Hold (100+)",
+        "description": "Using techniques invented himself, during Hurricane Katrina syed held onto over 100 people to stop them from being blown away by the storm.",
+        "image": "people.png"
+    },
+    {
+        "title": "Rocket Throw",
+        "description": "To avoid the Challenger rocket disaster from happening again, Strong Guy is contracted by NASA to throw the rockets into space himself. He describes it as his \"warming him up before his morning pump\".",
+        "image": "rocket.png"
+    },
+    {
+        "title": "Tunnel Smash",
+        "description": "During construction of the TTC Subway, Syed dug into the ground and walked through the Earth under Toronto to create the subway lines. This saved taxpayers millions.",
+        "image": "subway.png"
     }
 ]

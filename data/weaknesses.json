@@ -1,17 +1,22 @@
 [
     {
-        "title": "Tires",
-        "description": "he has to take constant trips to the mechanics to change his tires since his mass is too much for them to handle. Sometimes as much as four times a year. Please donate to help him solve this ongoing issue",
-        "image": "testimage.png"
+        "title": "Apartments",
+        "description": "Strong Guy is only able to live in bottom floor apartments, else he runs the risk of breaking through the floor and disturbing tenants living below him.",
+        "image": "apartments.png"
+    },
+    {
+        "title": "Phones",
+        "description": "Syed is forced to exclusively use voice commands to operate his phone. He has broken too many glass screens while typing with too much force during internet arguments.",
+        "image": "phones.png"
     },
     {
         "title": "Tires",
-        "description": "he has to take constant trips to the mechanics to change his tires since his mass is too much for them to handle. Sometimes as much as four times a year. Please donate to help him solve this ongoing issue",
-        "image": "testimage.png"
+        "description": "Syed has to take constant trips to the mechanics to change his tires, since his mass is too much for them to handle. Sometimes as much as four times a year. Please donate to help him solve this ongoing issue.",
+        "image": "tires.png"
     },
     {
-        "title": "Tires",
-        "description": "he has to take constant trips to the mechanics to change his tires since his mass is too much for them to handle. Sometimes as much as four times a year. Please donate to help him solve this ongoing issue",
-        "image": "testimage.png"
+        "title": "Shoes",
+        "description": "Strong Guy DOES not WEAR shoes. He claims they limit his ability to run \"as fast, if not faster, than a cheetah\". If you can find a picture of Strong Guy wearing shoes, he will pay you a sum of $4,000.00 and then proceed with the removal of that picture from the internet.",
+        "image": "shoes.png"
     }
 ]
