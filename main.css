@@ -375,6 +375,17 @@ a:hover {
     -webkit-text-stroke: 2px black;
 
 }
+
+
+/* LITERATURE */
+.literature-container {
+    margin: 10px;
+    background-color: white;
+    border-radius: 2px;
+    padding: 10px;
+    font-size: 18px;
+    /* text-transform: none; */
+}
 @media screen and (max-width : 1660px) {
     .brag-container .card {
         background-size: auto;
