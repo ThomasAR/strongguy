@@ -33,7 +33,7 @@ a:hover {
     padding: 0;
     position: fixed;
     box-shadow: 0 5px 10px black;
-
+    width: 100%;
 }
 
 #title-name button {
